@@ -2,6 +2,17 @@
 
 # English.md
 
+## Requirement
+
+- download python
+- selenium
+  - [pip install selenium](https://selenium-python.readthedocs.io/installation.html#installing-python-bindings-for-selenium)
+  - [your browser driver](https://sites.google.com/chromium.org/driver/)
+- pip install openpyxl
+- pip install time
+
+## Usage
+
 This is for English
 
 The file is for [ChatBox](https://web.chatboxai.app/) prompt automation by selenium.
@@ -24,6 +35,17 @@ But if You just run it,and than have a rest,than the prompt will auto in ChatBox
 - [contact me](https://space.bilibili.com/364838313?spm_id_from=333.1007.0.0)
 
 # 中文说明.md
+
+## Requirement
+
+- download python
+- selenium
+  - [pip install selenium](https://selenium-python.readthedocs.io/installation.html#installing-python-bindings-for-selenium)
+  - [your browser driver](https://sites.google.com/chromium.org/driver/)
+- pip install openpyxl
+- pip install time
+
+## Usage
 
 This is for Chinese
 
