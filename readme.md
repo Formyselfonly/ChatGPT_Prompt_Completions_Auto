@@ -1,3 +1,5 @@
+[See it first](prompt_completions_auto.mp4)
+
 # English.md
 
 This is for English
