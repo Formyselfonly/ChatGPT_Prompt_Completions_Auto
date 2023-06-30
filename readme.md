@@ -1,4 +1,4 @@
-[See it first](prompt_completions_auto.mp4)
+![prompt_completions_auto](prompt_completions_auto.gif)
 
 # English.md
 
