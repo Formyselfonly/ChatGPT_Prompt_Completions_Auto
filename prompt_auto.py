@@ -31,7 +31,7 @@ f_column = sheet['A']
 #Such as (1,3) is 1,2 without 3
 #Summary: If you want to auto prompt from the 2 line(if 1 line is the Header) to 40 line,need to use for i in range(1,40)
 #It's not difficult,just try!
-for i in range(1, 5):
+for i in range(1, 20):
     input_box.send_keys(f_column[i].value)
     send_button.click()
     time.sleep(30)  # 等待30秒钟
@@ -41,8 +41,8 @@ for i in range(1, 5):
     print("The answer {} is".format(i),recent_answer)
     #A is 1,B is 2
     sheet.cell(row=i + 1, column=2).value = recent_answer
-#You can change the output file location
-workbook.save('prompt_comletions.xlsx')
+    #You can change the output file location
+    workbook.save('prompt_comletions.xlsx')
 #You can use the answers if you have other require,it's the list of answers,
 #anwers[1].text is the first answer
 print("The answers are",answers)
